@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DEIOZ Head</title>
+  </head>
+  <body onload="inicializa()">
+    <header>
+      <h1>Les presento las cabecitas de DEIOZ</h1>
+      <h2>Elije tu personaje:</h2>
+    </header>
+    <main>
+      <div class="characterSelection">
+        <button onclick='choose(1)' class="characterOption"><img src="img/wolder1.png" alt="Cabeza de Wolder"></button>
+        <button onclick='choose(2)' class="characterOption"><img src="img/dracorfs.png" alt="Cabeza de Dracorfs"></button>
+        <button onclick='choose(3)' class="characterOption"><img src="img/fausto.png" alt="Cabeza de Fausmil"></button>
+        <button onclick='choose(4)' class="characterOption"><img src="img/gonza.png" alt="Cabeza de GonzaGames"></button>
+      </div>
+    </main>
+    <canvas id="canvas"></canvas>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
