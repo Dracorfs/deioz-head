@@ -9,20 +9,18 @@
     
     <title>DEIOZ Head</title>
   </head>
-  <body onload="inicializa()">
-    <header>
-      <h1>Les presento las cabecitas de DEIOZ</h1>
-      <h2>Elije tu personaje:</h2>
-    </header>
+  <body onload="initialize()">
     <main>
       <div class="characterSelection">
-        <button onclick='choose(1)' class="characterOption"><img src="img/wolder1.png" alt="Cabeza de Wolder"></button>
+        <button onclick='choose(1)' class="characterOption"><img src="img/wolder.png" alt="Cabeza de Wolder"></button>
         <button onclick='choose(2)' class="characterOption"><img src="img/dracorfs.png" alt="Cabeza de Dracorfs"></button>
         <button onclick='choose(3)' class="characterOption"><img src="img/fausto.png" alt="Cabeza de Fausmil"></button>
         <button onclick='choose(4)' class="characterOption"><img src="img/gonza.png" alt="Cabeza de GonzaGames"></button>
       </div>
     </main>
+    <br>
     <canvas id="canvas"></canvas>
-    <script src="js/juego.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="js/game.js"></script>
   </body>
 </html>
